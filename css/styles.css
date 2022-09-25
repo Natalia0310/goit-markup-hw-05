@@ -89,7 +89,7 @@ img {
   height: 4px;
   background-color: #2196f3;
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   border-radius: 2px;
   margin-bottom: 0;
@@ -205,6 +205,7 @@ p {
   padding-top: 10px;
   padding-right: 32px;
   padding-bottom: 10px;
+  cursor: pointer;
 }
 .section-title {
   font-weight: 700;
@@ -462,13 +463,14 @@ p {
   bottom: 0;
   right: 0;
   margin: 0;
-
+  display: flex;
+  justify-content: center;
   background: rgba(47, 48, 58, 0.8);
 
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
-  text-align: center;
+ 
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -479,12 +481,8 @@ p {
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-align: center;
+ 
 
-  padding-top: 27px;
-  padding-bottom: 27px;
-  padding-left: 95px;
-  padding-right: 95px;
 }
 .list-icons {
   display: flex;
