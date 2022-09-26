@@ -507,6 +507,7 @@ p {
 
 .contacts-icon-team {
   fill: currentColor;
+ 
 }
 
 .social {
@@ -564,6 +565,7 @@ p {
 .list-clients {
   width: 170px;
   height: 92px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients {
   display: flex;
